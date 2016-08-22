@@ -14,6 +14,12 @@ public class DataInputActivity extends AppCompatActivity {
     private EditText markField5 = (EditText)findViewById(R.id.mark5);
     private EditText markField6 = (EditText)findViewById(R.id.mark6);
     //Define all the percentage fields in java from XML
+    private EditText percentageField1 = (EditText)findViewById(R.id.mark1);
+    private EditText percentageField2 = (EditText)findViewById(R.id.mark2);
+    private EditText percentageField3 = (EditText)findViewById(R.id.mark3);
+    private EditText percentageField4 = (EditText)findViewById(R.id.mark4);
+    private EditText percentageField5 = (EditText)findViewById(R.id.mark5);
+    private EditText percentageField6 = (EditText)findViewById(R.id.mark6);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
